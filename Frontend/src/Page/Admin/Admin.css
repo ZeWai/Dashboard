@@ -1,0 +1,320 @@
+/*admin body*/
+.admin-body {
+  font-family: "Barlow", sans-serif;
+}
+/*admin navbar*/
+.admin-nav {
+  background: #42c1c6;
+  height: fit-content;
+}
+.admin-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.admin-nav-logo-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.admin-nav-logo {
+  width: 75px;
+  height: 7vh;
+  object-fit: contain;
+  margin-left: 28px;
+}
+.admin-nav-title-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.admin-nav-title {
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-top: 15px;
+}
+.admin-nav-logout-btn-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.admin-nav-logout-btn {
+  object-fit: contain;
+  margin-right: 55px;
+  background: #42c1c6;
+  border: none;
+  color: white;
+}
+
+.admin-nav-logout-btn:hover {
+  color: #221f20;
+}
+
+/*control panel*/
+.admin-control {
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: fit-content;
+  padding-bottom: 2vh;
+  padding-top: 30px;
+}
+.admin-btn-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.admin-sub-title {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+.admin-sub-btn {
+  background-color: #f5f5f5;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  border: none;
+  margin-bottom: 13px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.admin-sub-btn:hover {
+  color: #221f20;
+}
+.admin-sub-btn:focus {
+  color: rgb(0, 0, 0);
+}
+/*input body*/
+.admin-form {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 93vh;
+}
+
+/*form wrapper*/
+.admin-form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+.admin-input-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  margin-bottom: 30px;
+}
+.admin-input-box,
+.admin-input-box-tel,
+.admin-input-box-postCode,
+.admin-input-select {
+  background: #f5f5f5;
+  border-radius: 25px;
+  border: none;
+  height: 35px;
+  padding-left: 25px;
+}
+
+.admin-form-wrapper label .admin-input-box {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.admin-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  line-height: 36px;
+  margin-top: 42px;
+  margin-bottom: 75px;
+}
+.admin-input-title {
+  font-size: 20px;
+  line-height: 24px;
+}
+.admin-logo-name {
+  margin-top: 8px;
+  font-size: 15px;
+  line-height: 18px;
+}
+.admin-logo-image {
+  height: 300px;
+  width: 300px;
+  object-fit: contain;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.8);
+  margin: 10px;
+}
+.admin-logo-select-btn {
+  background: #f5f5f5;
+  border-radius: 25px;
+  width: 116px;
+  height: 35px;
+  border: none;
+  font-size: 15px;
+  line-height: 18px;
+}
+.admin-logo-select-btn:focus {
+  border: 2px solid black;
+}
+.admin-client-create-btn,
+.admin-farmer-create-btn,
+.admin-create-btn {
+  background-color: #42c1c6;
+  margin-top: 20px;
+  width: 143px;
+  height: 44px;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.25);
+}
+
+.admin-client-create-btn:hover {
+  filter: brightness(0.9);
+}
+
+/* .admin-client-create-btn:focus,
+.admin-farmer-create-btn:focus {
+  border: 2px solid black;
+} */
+
+/*list wrapper*/
+.admin-list-wrapper {
+  padding-left: 11vw;
+  padding-right: 11vw;
+}
+.admin-list-item-name {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  padding-top: 20px;
+  text-align: center;
+}
+.admin-list-item-user {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  padding-top: 20px;
+  text-align: center;
+}
+.admin-list-item-label {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.admin-list-farmer-edit-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.admin-list-farmer-edit-btn,
+.admin-list-farmer-del-btn {
+  width: 30px;
+  height: 30px;
+  border: none;
+}
+.admin-list-farmer-edit-btn:hover,
+.admin-list-farmer-del-btn:hover {
+  color: #42c1c6;
+}
+/*checkbox*/
+.admin-input-checkbox-wrapper {
+  margin-top: 10px;
+}
+.admin-input-checkbox-linner {
+  margin-bottom: 10px;
+}
+.admin-input-checkbox-label {
+  font-size: 20px;
+  line-height: 24px;
+}
+.admin-input-checkbox-box {
+  width: 18px;
+  height: 19px;
+  margin-left: 23px;
+}
+/*error msg*/
+.admin-client-overview-wrapper .admin-form-errMsg {
+  padding-top: 20px;
+  font-size: large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.admin-form-errMsg {
+  color: red;
+  font-weight: 700;
+  padding-left: 40px;
+}
+/*client overview*/
+.admin-client-overview-wrapper {
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+/*popup*/
+.admin-popup-wrapper {
+  margin-top: 30vh;
+  margin-bottom: 30vh;
+}
+
+.admin-modal-body {
+  padding: 1rem 4rem;
+}
+.admin-popup-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.admin-popup-list-name-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.admin-popup-list-name {
+  font-size: 18px;
+  margin-top: 18px;
+  line-height: 24px;
+}
+.admin-popup-list-btn-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.admin-popup-list-lable {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  line-height: 24px;
+}
+.admin-popup-list-minus-btn,
+.admin-popup-list-add-btn {
+  background-color: white;
+  border: none;
+  margin-right: 30px;
+}
+
+/* Client Overview modal */
+.admin-popup-submit-btn,
+.admin-popup-cancel-btn {
+  width: 7em;
+  height: 2.4em;
+}
+
+.admin-popup-cancel-btn {
+  background-color: #788985;
+}
